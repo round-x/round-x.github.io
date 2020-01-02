@@ -1,0 +1,92 @@
+﻿ #game_double {
+    background: url(..//img/double.png);
+}
+.double-timer {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin: 0 auto;
+    font-size: 27px;
+	box-sizing: border-box;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: #1B2832;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 53px;
+    color: #fff;
+}
+#game {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rnb_arrow {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    border: 13px solid transparent;
+    border-top: 20px solid #dddddd;
+    z-index: 100;
+}
+.win-numbers {
+	position: relative;
+    left: 4%;
+    width: 100%;
+    padding: 5px;
+    height: 60px;
+    display: box;
+    display: flex;
+    margin-bottom: 10px;
+}
+.bet_button, .bet_input {
+    border-radius: 5px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    width: 140px;
+    white-space: nowrap;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bet_button {
+    background: #478366;
+    color: #fff;
+}
+
+form.join-game-form {
+    position: relative;
+    right: -140px;
+    top: 0;
+}
+
+div#userstat {
+    position: relative;
+    top: -542px;
+}
+.red-light {
+    background-color: rgb(232, 72, 73);
+}
+.green-light {
+    background-color: rgb(71, 131, 102);
+}
+.number {
+    width: 91%;
+    height: 17px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15;
+    margin-right: 10px;
+    /* border-radius: 50px; */
+    /* border: 2px solid #e2e2e2; */
+}
+.black-light {
+    background-color: #1B2832;
+}

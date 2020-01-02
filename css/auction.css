@@ -1,0 +1,67 @@
+.auction-auction {
+    padding: 0;
+    position: relative;
+    background: url(https://vkmix.com/images/auction.svg) no-repeat 0 55px;
+    width: 665;
+    height: 223px;
+    left: 50px;
+}
+.headauc {
+    width: 346px;
+    height: 39px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f9fafc;
+    border: 1px solid #f4f6fa;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main {
+    width: 376px;
+    margin: 0 auto;
+    min-height: 143px;
+}
+.main [class^=button] {
+    margin: 17px auto;
+    width: 200px;
+    height: 43px;
+    line-height: 45px;
+    position: relative;
+    top: 61px;
+}
+.main [class^=button] {
+    margin: 17px auto;
+    width: 200px;
+    height: 43px;
+    line-height: 45px;
+}
+.button-blue {
+    background: #6b9bd2;
+}
+[class^=button] {
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    min-width: 72px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    font-family: Roboto-Medium,sans-serif;
+}
+span#timer1 {
+    position: relative;
+    top: 75px;
+    left: 28%;
+}
+.main .text {
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 70px;
+}
+.main .text-pad {
+    margin: 35px auto;
+}

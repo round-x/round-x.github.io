@@ -1,0 +1,254 @@
+.selected {
+    display: block;
+    height: 50px;
+    border: 1px solid #356DFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 49px;
+    margin-right: 10px;
+    background-color: #356DFF;
+}
+
+.money100r {
+    width: 66px;
+    height: 45px;
+    background-image: url('../img/100r.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.ava2 img {
+    width: 140px !important;
+    height: 140px !important;
+    border-radius: 5px;
+}
+
+img.avatar33 {
+    border: 1px solid #DA0843;
+}
+
+.avatext img {
+    border-radius: 5px;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.ava4 img {
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.blgg1 {
+    background-image: url('../img/bggrafic.png') !important;
+}
+
+.bab {
+    width: 160px !important;
+    height: 140px !important;
+    position: relative !important;
+}
+
+.commonMagicStick {
+    content: url('../img/posh.png');
+}
+
+.goodMagicStick {
+    content: url('../img/w2.png');
+}
+
+.badMagicStick {
+    content: url('../img/w1.png');
+}
+
+.crashDublb {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+    background-image: url('../img/noboom.png');
+    background-repeat: no-repeat;
+}
+
+.money5000bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money1000bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money500bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money100bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money50bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money10bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money5bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money1bAd img {
+    width: 120px;
+    height: 83px;
+    position: absolute;
+    z-index: 9;
+}
+
+.money5000b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/5000b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money1000b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/1000b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money500b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/500b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money100b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/100b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money50b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/50b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money10b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/10b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+.money5b {
+    width: 120px;
+    height: 83px;
+    background-image: url('../img/5b.png');
+    position: absolute;
+    z-index: 9;
+}
+
+@media screen and (max-width: 1200px) {
+    .ava4 img {
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .bab {
+        width: 160px !important;
+        height: 140px !important;
+        position: relative !important;
+    }
+
+    .money5000bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money1000bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money500bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money100bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money50bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money10bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money5bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+
+    .money1bAd img {
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        z-index: 9;
+    }
+}

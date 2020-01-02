@@ -1,0 +1,60 @@
+.msg_table {
+border: 1px solid #000000;
+}
+.button{
+background-color:rgb(67,114,161);
+border:1px solid rgb(148,187,255);
+border-right-color:rgb(40,68,97);
+border-bottom-color:rgb(40,68,97);
+color:rgb(187,211,236);
+margin:0px;
+margin-left:0px;
+font:bold 11px Arial; 
+}
+
+.button:hover{
+background-color:rgb(67,114,200);
+border:1px solid rgb(148,187,255);
+border-right-color:rgb(40,68,97);
+border-bottom-color:rgb(40,68,97);
+color:rgb(187,211,236);
+margin:0px;
+margin-left:0px;
+font:bold 11px Arial; 
+}
+
+}
+h3 {
+font-size: 15px;
+}
+.tableosn {
+background-color: FFF0CC;
+border: 2px ridge ffc000
+}
+.tableleft {
+border-right-style:solid;
+border-right-width:1px;
+border-right-color:#000000;
+}
+.color {
+color: #042140;
+}
+
+A:link {
+FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR:Royalblue; FONT-FAMILY: Verdana; TEXT-DECORATION: none 
+}
+A:active {
+FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR:Royalblue; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR:black; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+A.adm: {
+FONT-SIZE: 8pt; COLOR:Royalblue; FONT-FAMILY: Verdana; TEXT-DECORATION: none 
+}
+A.adm:hover {
+FONT-SIZE: 8pt; COLOR:black; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: bebas; /* Имя шрифта */
+    src: url(../font/BebasNeue.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: bebasBold; /* Имя шрифта */
+    src: url(../font/bebas-neue-bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+.modal-window p,.modal-window h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-window {
+    color: #fff;
+    font-family: bebas;
+}
+
+.m-body {
+    font-size: 20px;
+    text-align: center;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.58);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 560px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background: #3f2566;
+
+}
+
+.close {
+    position: absolute;
+    right: -12px;
+    top: -10px;
+}
+
+.custom-title{
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+}
+
+.message {
+    border-radius: 2px;
+    margin: 40px 0;
+    padding: 10px 0;
+    background-color: #346dff;
+    text-align: center;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.message p {
+    font-size: 18px;
+}
+
+.bonus {
+    margin-bottom: 40px;
+}
+
+.line {
+    margin: 40px 0;
+    background: #fff;
+    height: 2px;
+}
+
+.m-footer {
+    font-size: 20px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.green {
+    color: #40c782;
+}
+
+.modal-blue {
+    color: #346dff;
+}
+
+.col-left, .col-right {
+    float: left;
+    width: 50%;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.col-right > .youlevel {
+    color: #346dff;
+}
+
+.custom-button {
+    font-size: 30px;
+    border-bottom: solid 3px #36a86d;
+    margin-top: 30px;
+    font-family: bebasBold;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    background: #40c782;
+    color: #fff;
+    text-decoration: none;
+}

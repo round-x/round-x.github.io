@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 404  /
+RewriteRule ^login/? /action/login.php
+RewriteRule ^register/? /action/register.php
+RewriteRule ^ref/([a-zA-Z0-9]+)$ index.php?i=$1 [L]
+RewriteRule ^chat/? /action/chat.php
+RewriteRule ^online/? /action/online.php
+RewriteRule ^offline/? /action/offline.php
+RewriteRule ^freekassa/? /action/freekassa.php
+RewriteRule ^send/? /action/send.php
+RewriteRule ^promocode/? /action/promocode.php
+RewriteRule ^freeBieInfo/? /action/freeBieInfo.php
+RewriteRule ^freeBie/? /action/freeBie.php
+RewriteRule ^getReferalsInfo/? /action/getReferalsInfo.php
+RewriteRule ^outputMoney/? /action/outputMoney.php
+RewriteRule ^upgraderEngine/? /action/upgraderEngine.php
+RewriteRule ^upgraderHistory/? /action/upgraderstor.php
+RewriteRule ^upgraderLive/? /action/upgraderlive.php
+RewriteRule ^FastGame/? /pages/fast.php
+RewriteRule ^Live/? /pages/live.php
+RewriteRule ^AdminLive/? game/live/adminom/admin.php
